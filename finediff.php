@@ -353,7 +353,7 @@ class FineDiff {
 		FineDiff::paragraphDelimiters,
 		FineDiff::sentenceDelimiters
 	);
-	const wordDelimiters = " \t.\n\r";
+	const wordDelimiters = " \t.,;\n\r";
 	public static $wordGranularity = array(
 		FineDiff::paragraphDelimiters,
 		FineDiff::sentenceDelimiters,
